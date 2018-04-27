@@ -2,3 +2,4 @@
 *.fastq
 C_virginica/.DS_Store
 .Rproj.user
+*.bam
