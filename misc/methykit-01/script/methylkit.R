@@ -15,7 +15,7 @@ file.list_a=list('data/zr2096_1_dedup.sorted.bam',
 
 
 
-myobj2 = processBismarkAln(location = file.list_a, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=3, treatment = c(0,0,0,0,0,1,1,1,1,1))
+myobj2 = processBismarkAln(location = file.list_a, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=10, treatment = c(0,0,0,0,0,1,1,1,1,1))
 
 
 
@@ -62,4 +62,8 @@ myDiff50p <- getMethylDiff(myDiff,difference=50,qvalue=0.01)
 
 write.table(myDiff50p, file = "analyses/myDiff50p.tab")
 
-view(myDiff50p)
+View(myDiff50p)
+
+
+write.csv(myDiff25p, file = "analyses/myDiff25p.csv")
+
