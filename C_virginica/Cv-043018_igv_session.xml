@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-03-15/genome/GCF_002022765.2_C_virginica-3.0_genomic.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="NC_035786.1:34324011-34396228" nextAutoscaleGroup="3" path="/Users/sr320/Documents/GitHub/nb-2018/C_virginica/Cv-043018_igv_session.xml" version="8">
+<Session genome="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-03-15/genome/GCF_002022765.2_C_virginica-3.0_genomic.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="NC_035784.1:53991014-53991068" nextAutoscaleGroup="4" path="/Users/sr320/Documents/GitHub/nb-2018/C_virginica/Cv-043018_igv_session.xml" version="8">
     <Resources>
         <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_3_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_4_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_8_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
         <Resource path="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/022/765/GCF_002022765.2_C_virginica-3.0/GCF_002022765.2_C_virginica-3.0_genomic.gff.gz"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_10_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/working-directory/18-04-30/meth_diff_50.bed"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_5_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_7_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_1_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_2_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_6_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph"/>
     </Resources>
-    <Panel height="193" name="DataPanel" width="1245">
+    <Panel height="412" name="DataPanel" width="1245">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,0" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;204,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_1_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_1_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,0" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;204,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_2_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_2_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,0" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;204,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_3_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_3_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,0" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;204,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_4_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_4_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,0" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;204,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_5_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_5_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_6_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_6_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_7_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_7_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_8_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_8_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_10_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_10_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_1_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_1_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
-        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_2_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_2_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
-        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_3_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" name="zr2096_3_s1_R1_val_1_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
-        </Track>
     </Panel>
-    <Panel height="477" name="FeaturePanel" width="1245">
+    <Panel height="718" name="FeaturePanel" width="1245">
         <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
-        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/working-directory/18-04-30/meth_diff_50.bed" name="meth_diff_50.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/working-directory/18-04-30/meth_diff_50.bed" name="meth_diff_50.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" id="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/022/765/GCF_002022765.2_C_virginica-3.0/GCF_002022765.2_C_virginica-3.0_genomic.gff.gz" name="GCF_002022765.2_C_virginica-3.0_genomic.gff.gz" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
     </Panel>
-    <PanelLayout dividerFractions="0.3463587921847247"/>
+    <PanelLayout dividerFractions="0.7353463587921847"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
