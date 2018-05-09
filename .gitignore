@@ -4,3 +4,4 @@ C_virginica/.DS_Store
 .Rproj.user
 *.bam
 .DS_Store
+C_virginica/data/ref_C_virginica-3.0_top_level.gff3
