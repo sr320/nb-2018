@@ -41,5 +41,8 @@ ggplot(crab_big3, aes(x = Sample_Day)) +
 #not pretty but histogram for easy look
 ggplot(crab_big3, aes(x = infection_status)) +
   geom_bar(aes(fill = temperature_treatment)) +
-  facet_wrap(~Sample_Day)
+  facet_wrap(~Sample_Day)+
+  scale_y_continuous(breaks = round(seq(min(0), max(15), by = 1),1))
+
+
 
