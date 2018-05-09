@@ -29,4 +29,17 @@ filter(crab_big3, temperature_treatment == "ambient", infection_status == 1) %>%
 filter(crab_big3, temperature_treatment == "ambient", infection_status == 0) %>%
   summarize(count = n()) 
 
-# 
+library(ggplot2)
+
+
+
+#not pretty but histogram for easy look
+ggplot(crab_big3, aes(x = Sample_Day)) +
+  geom_bar(aes(fill = temperature_treatment)) +
+  facet_wrap(~infection_status)
+
+#not pretty but histogram for easy look
+ggplot(crab_big3, aes(x = infection_status)) +
+  geom_bar(aes(fill = temperature_treatment)) +
+  facet_wrap(~Sample_Day)
+
