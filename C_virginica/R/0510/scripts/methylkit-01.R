@@ -28,14 +28,18 @@ myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4"
 
 getMethylationStats(myobj[[1]],plot=FALSE,both.strands=FALSE)
 
-getMethylationStats(myobj2[[1]],plot=TRUE,both.strands=FALSE)
-
-getCoverageStats(myobj2[[4]],plot=TRUE,both.strands=FALSE)
+getMethylationStats(myobj[[1]],plot=FALSE,both.strands=TRUE)
 
 
 
+getMethylationStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
 
-meth=unite(myobj2)
+getCoverageStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
+
+
+
+
+meth=unite(myobj)
 
 
 
@@ -43,3 +47,34 @@ getCorrelation(meth,plot=TRUE)
 
 
 clusterSamples(meth, dist="correlation", method="ward", plot=TRUE)
+
+
+
+
+hc = clusterSamples(meth, dist="correlation", method="ward", plot=FALSE)
+
+PCASamples(meth, screeplot=TRUE)
+
+
+
+#PCA
+PCASamples(meth)
+
+PCASamples(meth,screeplot=FALSE, adj.lim=c(0.0004,0.1),
+           scale=TRUE,center=TRUE,comp=c(1,2),transpose=TRUE,sd.filter=TRUE,
+           sd.threshold=0.5,filterByQuantile=TRUE,obj.return=FALSE)
+
+
+#DML gene list
+myDiff=calculateDiffMeth(meth)
+
+
+
+myDiff25p=getMethylDiff(myDiff,difference=25,qvalue=0.01)
+
+
+myDiff50p=getMethylDiff(myDiff,difference=50,qvalue=0.01)
+
+
+
+
