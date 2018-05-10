@@ -5,3 +5,5 @@ C_virginica/.DS_Store
 *.bam
 .DS_Store
 C_virginica/data/ref_C_virginica-3.0_top_level.gff3
+.DS_Store
+misc/02-crab/.Rhistory
