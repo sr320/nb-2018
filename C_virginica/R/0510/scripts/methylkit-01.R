@@ -6,7 +6,7 @@ library(methylKit)
 
 #copying dedup sorted bams from Bismark to data dir
 #output on macbook: /Users/sr320/Dropbox/wd/18-04-27
-
+#these are from subset (not full data set)
 #creating list of files
 file.list=list(  'data/zr2096_1_dedup.sorted.bam',
                  'data/zr2096_2_dedup.sorted.bam',
@@ -76,5 +76,26 @@ myDiff25p=getMethylDiff(myDiff,difference=25,qvalue=0.01)
 myDiff50p=getMethylDiff(myDiff,difference=50,qvalue=0.01)
 
 
+# get hyper-methylated
+hyper=getMethylDiff(myDiff,difference=25,qvalue=0.01,type="hyper")
+
+hyper
+
+# get hypo-methylated
+hypo=getMethylDiff(myDiff,difference=25,qvalue=0.01,type="hypo")
 
 
+
+# Examples
+
+
+data(methylKit)
+
+# get differentially methylated bases/regions with specific cutoffs
+all.diff=getMethylDiff(methylDiff.obj,difference=25,qvalue=0.01,type="all")
+
+# get hyper-methylated
+hyper=getMethylDiff(methylDiff.obj,difference=25,qvalue=0.01,type="hyper")
+
+# get hypo-methylated
+hypo=getMethylDiff(methylDiff.obj,difference=25,qvalue=0.01,type="hypo")
