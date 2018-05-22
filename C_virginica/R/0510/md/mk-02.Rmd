@@ -51,10 +51,21 @@ file.list=list(  '/Users/sr320/Desktop/oakl/zr2096_1_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_4_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_5_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_6_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_6_dedup.sorted.bam',
+                 '/Users/sr320/Desktop/oakl/zr2096_7_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_8_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_9_dedup.sorted.bam',
                  '/Users/sr320/Desktop/oakl/zr2096_10_dedup.sorted.bam'
 )
 ```
+
+
+
+Bringing in bam files, setting context, AND coverage
+
+```{r, cache=TRUE}
+myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=10, treatment = c(0,0,0,0,0,1,1,1,1,1))
+```
+
+
+
 
