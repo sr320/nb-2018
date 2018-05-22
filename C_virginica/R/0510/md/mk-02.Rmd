@@ -67,5 +67,41 @@ myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4"
 ```
 
 
+```{r}
+getCoverageStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
+```
+
+
+
+```{r}
+getMethylationStats(myobj[[1]],plot=FALSE,both.strands=FALSE)
+```
+
+```{r}
+getCoverageStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
+```
+
+```{r}
+meth=unite(myobj)
+```
+
+
+```{r}
+getCorrelation(meth,plot=TRUE)
+```
+```{r}
+clusterSamples(meth, dist="correlation", method="ward", plot=TRUE)
+
+```
+
+```{r}
+PCASamples(meth, screeplot=TRUE)
+```
+
+
+```{r}
+myDiff=calculateDiffMeth(meth)
+
+```
 
 
