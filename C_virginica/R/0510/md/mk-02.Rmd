@@ -64,15 +64,18 @@ file.list=list(  '/Users/sr320/Desktop/oakl/zr2096_1_dedup.sorted.bam',
 
 Bringing in bam files, setting context, AND coverage
 
-```{r, cache=TRUE}
+```{r, eval=FALSE}
 myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=10, treatment = c(0,0,0,0,0,1,1,1,1,1))
 ```
 
-```{r}
+```{r, eval=FALSE}
 save(myobj, file = "../analyses/myobj_180427files")
 ```
 
 
+```{r}
+load("../analyses/myobj_180427files")
+```
 
 
 
