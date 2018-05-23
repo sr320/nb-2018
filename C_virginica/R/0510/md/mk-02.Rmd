@@ -1,6 +1,8 @@
 ---
 title: "Methylkit-02"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include = FALSE }
@@ -66,6 +68,14 @@ Bringing in bam files, setting context, AND coverage
 myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=10, treatment = c(0,0,0,0,0,1,1,1,1,1))
 ```
 
+```{r}
+save(myobj, file = "../analyses/myobj_180427files")
+```
+
+
+
+
+
 
 ```{r}
 getCoverageStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
@@ -81,7 +91,7 @@ getMethylationStats(myobj[[1]],plot=FALSE,both.strands=FALSE)
 getCoverageStats(myobj[[4]],plot=TRUE,both.strands=FALSE)
 ```
 
-```{r}
+```{r, cache=TRUE}
 meth=unite(myobj)
 ```
 
@@ -99,9 +109,26 @@ PCASamples(meth, screeplot=TRUE)
 ```
 
 
-```{r}
+```{r, cache=TRUE}
 myDiff=calculateDiffMeth(meth)
 
 ```
+
+```{r}
+myDiff50p=getMethylDiff(myDiff,difference=50,qvalue=0.01)
+
+```
+
+
+
+
+```{r}
+myDiff50p
+```
+
+```{r}
+write.csv(myDiff50p, "../analyses/myDiff50p.csv")
+```
+
 
 
