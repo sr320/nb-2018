@@ -1,8 +1,8 @@
 ---
 title: "Methylkit-02"
 output:
-  pdf_document: default
-  html_document: default
+md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include = FALSE }
@@ -130,12 +130,43 @@ myDiff50p
 ```
 
 ```{r}
-write.csv(myDiff50p, "../analyses/myDiff50p.csv")
+write.table(myDiff50p, file = "../analyses/myDiff50p.tab", sep = "\t")
 ```
 
 
 ---
-# Taking the DMLs to a bed.
+# Taking the DMLs to a bed
+
+```{r}
+library(readr)
+myDiff50p <- read_csv("../analyses/myDiff50p.csv")
+ 
+```
+
+
+```{r}
+head(myDiff50p)
+```
+
+
+```{r}
+library(tidyverse)
+```
+
+
+
+```{r}
+dml05251200plus <- filter(myDiff50p, strand == "+") %>% mutate(start = start -1, end = end + 1) %>% select(chr, start, end, strand, meth.diff)
+dml05251200minus <- filter(myDiff50p, strand == "-") %>% mutate(start = start -2) %>% select(chr, start, end, strand, meth.diff)
+
+dml05251200.bed <- bind_rows(dml05251200plus, dml05251200minus) %>% arrange(chr, start) %>% 
+  mutate_if(is.numeric, as.integer) 
+#latter was done to refrain from writing as scientific notation
+
+
+dml05251200.bed
+write_delim(dml05251200.bed, "../analyses/dml05251200.bed",  delim = '\t', col_names = FALSE)
+```
 
 
 
