@@ -10,3 +10,5 @@ C_virginica/data/rna.fa
 C_virginica/data/ref-nohead_C_virginica-3.0_top_level.gff3
 C_virginica/data/ref_C_virginica-3.0_Gnomon_exon.gff3
 C_virginica/analyses/Cvirg_v3_CG-motif.bed
+C_virginica/analyses/C_virginica-3.0_CG-motif.bed.idx
+C_virginica/analyses/C_virginica-3.0_CG-motif.bed
