@@ -12,3 +12,6 @@ C_virginica/data/ref_C_virginica-3.0_Gnomon_exon.gff3
 C_virginica/analyses/Cvirg_v3_CG-motif.bed
 C_virginica/analyses/C_virginica-3.0_CG-motif.bed.idx
 C_virginica/analyses/C_virginica-3.0_CG-motif.bed
+C_virginica/test.bed
+C_virginica/test.bd
+C_virginica/analyses/test.bed
