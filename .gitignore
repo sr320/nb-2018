@@ -15,3 +15,10 @@ C_virginica/analyses/C_virginica-3.0_CG-motif.bed
 C_virginica/test.bed
 C_virginica/test.bd
 C_virginica/analyses/test.bed
+C_virginica/data/uniprot_sprot.fasta
+C_virginica/data/GCF_002022765.2_C_virginica-3.0_protein.fa
+C_virginica/data/uniprot_sprot.phr
+C_virginica/data/uniprot_sprot.pin
+C_virginica/data/uniprot_sprot.psq
+C_virginica/uniprot_sprot.fasta.gz
+C_virginica/uniprot_sprot.fasta.gz.1
