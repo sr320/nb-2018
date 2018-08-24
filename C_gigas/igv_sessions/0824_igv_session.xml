@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.dna_sm.toplevel.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="All" nextAutoscaleGroup="2" path="/Users/sr320/Documents/GitHub/nb-2018/C_gigas/igv_sessions/0824_igv_session.xml" version="8">
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.dna_sm.toplevel.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="All" nextAutoscaleGroup="3" path="/Users/sr320/Documents/GitHub/nb-2018/C_gigas/igv_sessions/0824_igv_session.xml" version="8">
     <Resources>
         <Resource path="http://eagle.fish.washington.edu/roberto/Hisat_results/Os1.bam"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.40.gff3"/>
