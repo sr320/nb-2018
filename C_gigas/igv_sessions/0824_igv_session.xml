@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.dna_sm.toplevel.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="All" path="/Users/sr320/Documents/GitHub/nb-2018/C_gigas/igv_sessions/0824_igv_session.xml" version="8">
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.dna_sm.toplevel.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="All" nextAutoscaleGroup="2" path="/Users/sr320/Documents/GitHub/nb-2018/C_gigas/igv_sessions/0824_igv_session.xml" version="8">
     <Resources>
         <Resource path="http://eagle.fish.washington.edu/roberto/Hisat_results/Os1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.40.gff3"/>
         <Resource path="http://eagle.fish.washington.edu/roberto/Hisat_results/stringtie_results/stringtie_merged.gtf"/>
     </Resources>
-    <Panel height="227" name="Panel1535122550742" width="1133">
+    <Panel height="317" name="Panel1535122550742" width="1133">
         <Track altColor="0,0,178" autoScale="true" color="175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/roberto/Hisat_results/Os1.bam_coverage" name="Os1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -15,13 +16,16 @@
             <RenderOptions/>
         </Track>
     </Panel>
-    <Panel height="345" name="FeaturePanel" width="1133">
+    <Panel height="255" name="FeaturePanel" width="1133">
         <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;0.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/roberto/Hisat_results/stringtie_results/stringtie_merged.gtf" name="stringtie_merged.gtf" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="0.0" type="LINEAR"/>
         </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;0.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Crassostrea_gigas.oyster_v9.40.gff3" name="Crassostrea_gigas.oyster_v9.40.gff3" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="0.0" type="LINEAR"/>
+        </Track>
     </Panel>
-    <PanelLayout dividerFractions="0.01020408163265306,0.40476190476190477"/>
+    <PanelLayout dividerFractions="0.01020408163265306,0.5578231292517006"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
