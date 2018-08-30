@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Contig286:1-35533" version="8">
+    <Resources>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.blastx.sorted.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.blastn.sorted.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.repeatrunner.sorted.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.protein2genome.sorted.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.repeatmasker.sorted.gff"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.est2genome.sorted.gff"/>
+    </Resources>
+    <Panel height="2805" name="FeaturePanel" width="1364">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1080679" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.blastx.sorted.gff" name="Olurida_v081.blastx.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1458530" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.protein2genome.sorted.gff" name="Olurida_v081.protein2genome.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1000000" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.est2genome.sorted.gff" name="Olurida_v081.est2genome.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1000000" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.blastn.sorted.gff" name="Olurida_v081.blastn.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="122124600" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.repeatrunner.sorted.gff" name="Olurida_v081.repeatrunner.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="3581943" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.repeatmasker.sorted.gff" name="Olurida_v081.repeatmasker.sorted.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff" name="Olurida_v081_TE-Cg.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.009900990099009901"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
