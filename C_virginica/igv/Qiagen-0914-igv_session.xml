@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="NC_035782.1:34548216-34550602" version="8">
+    <Resources>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-07-30b/1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/15_39_S39_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/3_27_S27_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/5_35_S35_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/16_40_S40_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/19_7_S7_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/18_10_S10_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/12_38_S38_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/20_8_S8_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/14_34_S34_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/7_29_S29_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/6_36_S36_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/10_32_S32_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/8_30_S30_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/13_33_S33_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/11_37_S37_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-07-30b/2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/4_28_S28_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/17_9_S9_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+        <Resource path="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/9_31_S31_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam"/>
+    </Resources>
+    <Panel height="80" name="DataPanel" width="1166">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-07-30b/1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph" name="1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-07-30b/2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph" name="2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.bedGraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536948829673" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="1_25_S25_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536948918497" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="2_26_S26_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="90" name="Panel1536949029129" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/3_27_S27_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="3_27_S27_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/3_27_S27_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="3_27_S27_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949083298" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/4_28_S28_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="4_28_S28_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/4_28_S28_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="4_28_S28_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="90" name="Panel1536949177516" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/5_35_S35_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="5_35_S35_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/5_35_S35_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="5_35_S35_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949186871" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/6_36_S36_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="6_36_S36_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/6_36_S36_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="6_36_S36_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949196488" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/7_29_S29_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="7_29_S29_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/7_29_S29_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="7_29_S29_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949204611" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/8_30_S30_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="8_30_S30_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/8_30_S30_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="8_30_S30_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="187" name="Panel1536949226966" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/9_31_S31_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="9_31_S31_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/9_31_S31_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="9_31_S31_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="145" name="Panel1536949273665" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/10_32_S32_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="10_32_S32_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/10_32_S32_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="10_32_S32_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="145" name="Panel1536949289284" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/11_37_S37_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="11_37_S37_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/11_37_S37_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="11_37_S37_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="145" name="Panel1536949310415" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/12_38_S38_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="12_38_S38_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/12_38_S38_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="12_38_S38_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="201" name="Panel1536949427350" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/13_33_S33_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="13_33_S33_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/13_33_S33_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="13_33_S33_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="187" name="Panel1536949449318" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/14_34_S34_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="14_34_S34_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/14_34_S34_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="14_34_S34_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="159" name="Panel1536949457881" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/15_39_S39_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="15_39_S39_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/15_39_S39_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="15_39_S39_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="173" name="Panel1536949465462" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/16_40_S40_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="16_40_S40_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/16_40_S40_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="16_40_S40_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949472860" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/17_9_S9_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="17_9_S9_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/17_9_S9_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="17_9_S9_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949482972" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/18_10_S10_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="18_10_S10_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/18_10_S10_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="18_10_S10_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="103" name="Panel1536949493528" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/19_7_S7_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="19_7_S7_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/19_7_S7_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="19_7_S7_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="145" name="Panel1536949501048" width="1166">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/20_8_S8_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam_coverage" name="20_8_S8_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://gannet.fish.washington.edu/seashell/bu-serine-wd/18-09-13/20_8_S8_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" name="20_8_S8_L001_R1_001_bismark_bt2_pe.deduplicated.sorted.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="20" name="FeaturePanel" width="1166">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.058823529411764705,0.0803921568627451,0.11470588235294117,0.14901960784313725,0.18333333333333332,0.21764705882352942,0.2519607843137255,0.3127450980392157,0.3568627450980392,0.4117647058823529,0.4666666666666667,0.5176470588235295,0.5745098039215686,0.615686274509804,0.6970588235294117,0.7470588235294118,0.8127450980392157,0.8627450980392157,0.9068627450980392,0.946078431372549,0.9803921568627451"/>
+</Session>
