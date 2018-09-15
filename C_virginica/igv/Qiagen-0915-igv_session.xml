@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="NC_035788.1:1-104168038" path="/Users/sr320/Documents/GitHub/nb-2018/C_virginica/igv/Qiagen-0915-igv_session.xml" version="8">
+    <Resources>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/14_34_S34_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/01_25_S25_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/10_32_S32_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/20_8_S8_3x.bedgraph"/>
+        <Resource path="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_Gnomon_mRNA.gff3"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/09_31_S31_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/13_33_S33_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/15_39_S39_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/18_10_S10_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/11_37_S37_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/19_7_S7_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/08_30_S30_3x.bedgraph"/>
+        <Resource path="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_CG-motif.bed"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/12_38_S38_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/17_9_S9_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/16_40_S40_3x.bedgraph"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/07_29_S29_3x.bedgraph"/>
+    </Resources>
+    <Panel height="600" name="DataPanel" width="1333">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/01_25_S25_3x.bedgraph" name="01_25_S25_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/07_29_S29_3x.bedgraph" name="07_29_S29_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/08_30_S30_3x.bedgraph" name="08_30_S30_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/09_31_S31_3x.bedgraph" name="09_31_S31_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/10_32_S32_3x.bedgraph" name="10_32_S32_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/11_37_S37_3x.bedgraph" name="11_37_S37_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/12_38_S38_3x.bedgraph" name="12_38_S38_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/13_33_S33_3x.bedgraph" name="13_33_S33_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/14_34_S34_3x.bedgraph" name="14_34_S34_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/15_39_S39_3x.bedgraph" name="15_39_S39_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/16_40_S40_3x.bedgraph" name="16_40_S40_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/17_9_S9_3x.bedgraph" name="17_9_S9_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="33.333332" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/18_10_S10_3x.bedgraph" name="18_10_S10_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="33.333332" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/19_7_S7_3x.bedgraph" name="19_7_S7_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;25.0;0.0;50.0;80.0;255,255,255;102,255,204;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/analyses/20_8_S8_3x.bedgraph" name="20_8_S8_3x.bedgraph" normalize="false" renderer="HEATMAP" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="125" name="FeaturePanel" width="1333">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_Gnomon_mRNA.gff3" name="C_virginica-3.0_Gnomon_mRNA.gff3" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_CG-motif.bed" name="C_virginica-3.0_CG-motif.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.7879282218597063"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
