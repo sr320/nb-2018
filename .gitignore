@@ -22,8 +22,5 @@ C_virginica/data/uniprot_sprot.pin
 C_virginica/data/uniprot_sprot.psq
 C_virginica/uniprot_sprot.fasta.gz
 C_virginica/uniprot_sprot.fasta.gz.1
-<<<<<<< HEAD
-
-C_virginica/Untitled.ipynb
-=======
->>>>>>> origin/master
+O_lurida/data/*
+.DS_Store
