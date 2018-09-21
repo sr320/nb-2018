@@ -1,5 +1,5 @@
 ---
-title: "Methylkit-02"
+title: "Methylkit-01"
 output:
 md_document:
     variant: markdown_github
@@ -47,16 +47,16 @@ Reading in some files:
 
 
 ```{r}
-file.list=list(  '/Users/sr320/Desktop/oakl/zr2096_1_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_2_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_3_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_4_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_5_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_6_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_7_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_8_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_9_dedup.sorted.bam',
-                 '/Users/sr320/Desktop/oakl/zr2096_10_dedup.sorted.bam'
+file.list=list(  '../../0510/data/zr2096_1_dedup.sorted.bam',
+                 '../../0510/data/zr2096_2_dedup.sorted.bam',
+                 '../../0510/data/zr2096_3_dedup.sorted.bam',
+                 '../../0510/data/zr2096_4_dedup.sorted.bam',
+                 '../../0510/data/zr2096_5_dedup.sorted.bam',
+                 '../../0510/data/zr2096_6_dedup.sorted.bam',
+                 '../../0510/data/zr2096_7_dedup.sorted.bam',
+                 '../../0510/data/zr2096_8_dedup.sorted.bam',
+                 '../../0510/data/zr2096_9_dedup.sorted.bam',
+                 '../../0510/data/zr2096_10_dedup.sorted.bam'
 )
 ```
 
@@ -65,19 +65,67 @@ file.list=list(  '/Users/sr320/Desktop/oakl/zr2096_1_dedup.sorted.bam',
 Bringing in bam files, setting context, AND coverage
 
 ```{r, eval=FALSE}
-myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=10, treatment = c(0,0,0,0,0,1,1,1,1,1))
+myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=3, treatment = c(0,0,0,0,0,1,1,1,1,1))
 ```
 
 ```{r, eval=FALSE}
-save(myobj, file = "../analyses/myobj_180427files")
+save(myobj, file = "../analyses/myobj_0921")
 ```
 
 
 ```{r}
-load("../analyses/myobj_180427files")
+#load("../analyses/myobj_0921")
 ```
 
 
+```{r}
+filtered.myobj=filterByCoverage(myobj,lo.count=5,lo.perc=NULL,
+                                      hi.count=NULL,hi.perc=99.9)
+
+meth_filter=unite(filtered.myobj, destrand=TRUE)
+
+clusterSamples(meth_filter, dist="correlation", method="ward", plot=TRUE)
+
+
+PCASamples(meth_filter)
+```
+
+#tile
+
+```{r}
+# Function
+tileit <- function(object, win.size=100, step.size=100, cov.bases=3) {
+  g.meth <- as(object,"GRanges")
+  chrs <- as.character(unique(seqnames(g.meth)))
+  grl <- split(g.meth, seqnames(g.meth))
+  max.length <- max(end(grl))
+  numTiles <- floor((max.length - (win.size - step.size))/step.size) + 1
+  starts <- unlist(sapply(numTiles,function(x) 1+0:(x-1)*step.size))
+  ranges <- IRanges(start=starts, width=rep(win.size,length(starts)))
+  all.wins <- GRanges(seqnames=Rle(chrs, numTiles), ranges=ranges)
+  rcounts <- regionCounts(object, all.wins, 0, strand.aware=FALSE)
+  rcounts.filtered <- rcounts[rcounts$coverage >= cov.bases, ]
+  return(rcounts.filtered)
+}
+
+# Code to run function on methylKitList
+new.list <- lapply(filtered.myobj, tileit)
+myobj.tiled <- new("methylRawList", new.list, treatment=myobj@treatment)
+```
+
+
+```{r}
+
+filtered.myobj=filterByCoverage(myobj.tiled,lo.count=5,lo.perc=NULL,
+                                      hi.count=NULL,hi.perc=99.9)
+
+meth_tile=unite(filtered.myobj, destrand=TRUE)
+
+clusterSamples(meth_tile, dist="correlation", method="ward", plot=TRUE)
+
+
+PCASamples(meth_tile)
+```
 
 
 ```{r}
