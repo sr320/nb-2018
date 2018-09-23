@@ -24,3 +24,5 @@ C_virginica/uniprot_sprot.fasta.gz
 C_virginica/uniprot_sprot.fasta.gz.1
 O_lurida/data/*
 .DS_Store
+C_virginica/dedup.err
+C_virginica/bme.err
