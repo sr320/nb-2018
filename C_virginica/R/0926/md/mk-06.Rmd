@@ -1,5 +1,5 @@
 ---
-title: "Methylkit-01"
+title: "Comparing Loci v Window"
 output:
 md_document:
     variant: markdown_github
@@ -9,14 +9,6 @@ md_document:
 library(methylKit)
 ```
 
-
-Now I need to download the files
-
-```
-curl -O http://owl.fish.washington.edu/halfshell/bu-serine-wd/18-04-29/zr2096_[1-10]_dedup.sorted.bam
-```
-
-These were generated in Jupyter like:
 
 ```
 %%bash
@@ -47,7 +39,7 @@ Reading in some files:
 
 
 ```{r}
-file.list=list(  '../../0510/data/zr2096_1_dedup.sorted.bam',
+#file.list=list(  '../../0510/data/zr2096_1_dedup.sorted.bam',
                  '../../0510/data/zr2096_2_dedup.sorted.bam',
                  '../../0510/data/zr2096_3_dedup.sorted.bam',
                  '../../0510/data/zr2096_4_dedup.sorted.bam',
@@ -65,32 +57,21 @@ file.list=list(  '../../0510/data/zr2096_1_dedup.sorted.bam',
 Bringing in bam files, setting context, AND coverage
 
 ```{r, eval=FALSE}
-myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=3, treatment = c(0,0,0,0,0,1,1,1,1,1))
+#myobj = processBismarkAln(location = file.list, sample.id = list("1","2","3","4","5","6","7","8","9","10"), assembly = "v3", read.context="CpG", mincov=3, treatment = c(0,0,0,0,0,1,1,1,1,1))
 ```
 
 ```{r, eval=FALSE}
-save(myobj, file = "../analyses/myobj_0921")
+#save(myobj, file = "../analyses/myobj_0921")
 ```
 
 
 ```{r}
-load("../analyses/myobj_0921")
+load("../../0921/analyses/myobj_0921")
 ```
 
 
-```{r}
-filtered.myobj=filterByCoverage(myobj,lo.count=3,lo.perc=NULL,
-                                      hi.count=NULL,hi.perc=99.9)
 
-meth_filter=unite(filtered.myobj, destrand=TRUE)
-
-clusterSamples(meth_filter, dist="correlation", method="ward", plot=TRUE)
-
-
-PCASamples(meth_filter)
-```
-
-#tile
+# tiling
 
 ```{r}
 # Function
@@ -109,9 +90,27 @@ tileit <- function(object, win.size=1000, step.size=1000, cov.bases=3) {
 }
 
 # Code to run function on methylKitList
-new.list <- lapply(filtered.myobj, tileit)
+new.list <- lapply(myobj, tileit)
 myobj.tiled <- new("methylRawList", new.list, treatment=myobj@treatment)
 ```
+
+
+
+
+
+
+```{r}
+filtered.myobj=filterByCoverage(myobj,lo.count=3,lo.perc=NULL,
+                                      hi.count=NULL,hi.perc=99.9)
+
+meth_filter=unite(filtered.myobj, destrand=TRUE)
+
+clusterSamples(meth_filter, dist="correlation", method="ward", plot=TRUE)
+
+
+PCASamples(meth_filter)
+```
+
 
 
 ```{r}
@@ -128,75 +127,80 @@ PCASamples(meth_tile)
 ```
 
 
-```{r}
-getCoverageStats(filtered.myobj[[4]],plot=TRUE,both.strands=FALSE)
-```
-
-
-
-```{r}
-getMethylationStats(myobj[[1]],plot=FALSE,both.strands=FALSE)
-```
-
-```{r}
-getCoverageStats(filtered.myobj[[4]],plot=TRUE,both.strands=FALSE)
-```
-
-```{r, cache=TRUE}
-meth=unite(filtered.myobj)
-```
-
-
-```{r}
-getCorrelation(meth,plot=TRUE)
-```
-```{r}
-clusterSamples(meth, dist="correlation", method="ward", plot=TRUE)
-
-```
-
-```{r}
-PCASamples(meth, screeplot=TRUE)
-```
 
 
 ```{r, cache=TRUE}
-myDiff=calculateDiffMeth(meth)
+myDiff.loci=calculateDiffMeth(meth_filter)
 
 ```
 
 ```{r}
-myDiff50p=getMethylDiff(myDiff,difference=50,qvalue=0.01)
-
-```
 
 
-```{r}
-
-
-myDiff25p=getMethylDiff(myDiff,difference=25,qvalue=0.01)
-
-
-myDiff50p=getMethylDiff(myDiff,difference=50,qvalue=0.01)
+myDiff25p.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01)
 
 
 # get hyper-methylated
-hyper=getMethylDiff(myDiff,difference=25,qvalue=0.01,type="hyper")
-
-hyper
+hyper.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hyper")
 
 # get hypo-methylated
-hypo=getMethylDiff(myDiff,difference=25,qvalue=0.01,type="hypo")
+hypo.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hypo")
 
 ```
 
 
+```{r}
+
+
+myDiff25p.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01)
+
+
+# get hyper-methylated
+hyper.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hyper")
+
+# get hypo-methylated
+hypo.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hypo")
+
+```
+
+
+
+
+```{r, cache=TRUE}
+myDiff.tile=calculateDiffMeth(meth_tile)
+
+```
 
 
 
 ```{r}
-myDiff50p
+
+
+myDiff25p.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01)
+
+
+# get hyper-methylated
+hyper.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hyper")
+
+# get hypo-methylated
+hypo.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hypo")
+
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```{r}
 write.table(myDiff50p, file = "../analyses/myDiff50p.tab", sep = "\t")
