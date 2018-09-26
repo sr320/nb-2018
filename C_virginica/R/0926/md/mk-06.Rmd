@@ -75,7 +75,7 @@ load("../../0921/analyses/myobj_0921")
 
 ```{r}
 # Function
-tileit <- function(object, win.size=1000, step.size=1000, cov.bases=3) {
+tileit <- function(object, win.size=500, step.size=500, cov.bases=3) {
   g.meth <- as(object,"GRanges")
   chrs <- as.character(unique(seqnames(g.meth)))
   grl <- split(g.meth, seqnames(g.meth))
@@ -115,7 +115,7 @@ PCASamples(meth_filter)
 
 ```{r}
 
-tiled.filtered.myobj=filterByCoverage(myobj.tiled,lo.count=10,lo.perc=NULL,
+tiled.filtered.myobj=filterByCoverage(myobj.tiled,lo.count=3,lo.perc=NULL,
                                       hi.count=NULL,hi.perc=99.9)
 
 meth_tile=unite(tiled.filtered.myobj, destrand=TRUE)
@@ -176,14 +176,14 @@ myDiff.tile=calculateDiffMeth(meth_tile)
 ```{r}
 
 
-myDiff25p.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01)
+myDiff25p.t=getMethylDiff(myDiff.tile,difference=25,qvalue=0.01)
 
 
 # get hyper-methylated
-hyper.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hyper")
+hyper.t=getMethylDiff(myDiff.tile,difference=25,qvalue=0.01,type="hyper")
 
 # get hypo-methylated
-hypo.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hypo")
+hypo.t=getMethylDiff(myDiff.tile,difference=25,qvalue=0.01,type="hypo")
 
 ```
 
@@ -203,7 +203,13 @@ hypo.l=getMethylDiff(myDiff.loci,difference=25,qvalue=0.01,type="hypo")
 
 
 ```{r}
-write.table(myDiff50p, file = "../analyses/myDiff50p.tab", sep = "\t")
+write.table(hyper.l, file = "../analyses/hyper.l", sep = "\t")
+
+write.table(myDiff25p.l, file = "../analyses/myDiff25p.l", sep = "\t")
+
+write.table(myDiff25p.t, file = "../analyses/myDiff25p.t", sep = "\t")
+
+
 ```
 
 
