@@ -203,13 +203,39 @@ hypo.t=getMethylDiff(myDiff.tile,difference=25,qvalue=0.01,type="hypo")
 
 
 ```{r}
-write.table(hyper.l, file = "../analyses/hyper.l", sep = "\t")
 
-write.table(myDiff25p.l, file = "../analyses/myDiff25p.l", sep = "\t")
+write.table(myDiff25p.l, file = "../analyses/myDiff25p.l", sep = ",")
 
-write.table(myDiff25p.t, file = "../analyses/myDiff25p.t", sep = "\t")
+write.table(myDiff25p.t, file = "../analyses/myDiff25p.t", sep = ",")
 
 
+```
+
+
+
+
+
+```{r}
+library(readr)
+
+library(tidyverse)
+
+```
+
+
+
+```{r}
+table_myDiff25p.l <- read_csv("../analyses/myDiff25p.l")
+table_myDiff25p.t <- read_csv("../analyses/myDiff25p.t")
+```
+
+
+little problem that frst col has no header (manually rixed)
+
+
+
+```{r}
+OAKL_loci.bed <- select(table_myDiff25p.l,chr, start, end, meth.diff) %>%mutate(start = start -1)
 ```
 
 
@@ -235,7 +261,7 @@ library(tidyverse)
 
 
 ```{r}
-dml05251200plus <- filter(myDiff50p, strand == "+") %>% mutate(start = start -1, end = end + 1) %>% select(chr, start, end, strand, meth.diff)
+dml05251200plus <- filter(myDiff50p, strand == "+") %>% mutate(start = start -1) %>% select(chr, start, end, strand, meth.diff)
 dml05251200minus <- filter(myDiff50p, strand == "-") %>% mutate(start = start -2) %>% select(chr, start, end, strand, meth.diff)
 
 dml05251200.bed <- bind_rows(dml05251200plus, dml05251200minus) %>% arrange(chr, start) %>% 
