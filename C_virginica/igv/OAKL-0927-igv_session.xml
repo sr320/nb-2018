@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="NC_035787.1:47493397-47493452" path="/Users/sr320/Documents/GitHub/nb-2018/C_virginica/igv/OAKL-0927-igv_session.xml" version="8">
+    <Resources>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/R/0926/analyses/OAKL_tile.igv"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/R/0926/analyses/OAKL_loci.igv"/>
+        <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/C_virginica-3.0_TE-all.gff"/>
+        <Resource path="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_CG-motif.bed"/>
+        <Resource path="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_Gnomon_mRNA.gff3"/>
+    </Resources>
+    <Panel height="158" name="DataPanel" width="1133">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;-33.0;0.0;42.0;0,0,178;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/R/0926/analyses/OAKL_tile.igv_26" name="DMR_500" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="42.0" minimum="-33.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/nb-2018/master/C_virginica/R/0926/analyses/OAKL_loci.igv_33" name="DML" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="57.0" minimum="-52.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="423" name="FeaturePanel" width="1133">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;123.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_Gnomon_mRNA.gff3" name="C_virginica-3.0_Gnomon_mRNA.gff3" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="123.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/C_virginica-3.0_TE-all.gff" name="C_virginica-3.0_TE-all.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/Cvirg_tracks/C_virginica-3.0_CG-motif.bed" name="C_virginica-3.0_CG-motif.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.272108843537415"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

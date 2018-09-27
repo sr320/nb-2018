@@ -235,8 +235,36 @@ little problem that frst col has no header (manually rixed)
 
 
 ```{r}
-OAKL_loci.bed <- select(table_myDiff25p.l,chr, start, end, meth.diff) %>%mutate(start = start -1)
+OAKL_loci <- select(table_myDiff25p.l,chr, start, end, meth.diff) %>%mutate(start = start -1) %>% 
+  mutate_if(is.numeric, as.integer)  %>%
+  mutate(TYPE ="DML")  %>%
+  select(chr, start, end, TYPE, meth.diff) 
 ```
+
+
+```{r}
+OAKL_tile <- select(table_myDiff25p.t,chr, start, end, meth.diff) %>%mutate(start = start -1) %>% 
+  mutate_if(is.numeric, as.integer)  %>%
+  mutate(TYPE ="DMR")  %>%
+  select(chr, start, end, TYPE, meth.diff) 
+```
+
+
+
+```{r}
+
+write_delim(OAKL_tile, "../analyses/OAKL_tile.igv",delim = '\t',col_names = FALSE)
+write_delim(OAKL_loci, "../analyses/OAKL_loci.igv",delim = '\t',col_names = FALSE)
+
+
+```
+
+
+
+
+
+
+
 
 
 ---
