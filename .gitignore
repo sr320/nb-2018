@@ -26,3 +26,7 @@ O_lurida/data/*
 .DS_Store
 C_virginica/dedup.err
 C_virginica/bme.err
+hs_err_pid7473.log
+C_virginica/data/ref_C_virginica-3.0_top_level.sorted.gff3
+C_virginica/data/ref_C_virginica-3.0_top_level.sorted.gff3.idx
+.DS_Store
