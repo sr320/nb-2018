@@ -30,3 +30,6 @@ hs_err_pid7473.log
 C_virginica/data/ref_C_virginica-3.0_top_level.sorted.gff3
 C_virginica/data/ref_C_virginica-3.0_top_level.sorted.gff3.idx
 .DS_Store
+C_virginica/analyses/cpg/
+C_virginica/analyses/cpg-81/
+C_virginica/analyses/0930/
