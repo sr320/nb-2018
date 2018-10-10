@@ -1,0 +1,54 @@
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_HB16_Oil_25000ppm_TTAGGC.fastq.gz' does not exist, please respecify!
+
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_HB2_Oil_25000ppm_ATCACG.fastq.gz' does not exist, please respecify!
+
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_HB30_Oil_25000ppm_TGACCA.fastq.gz' does not exist, please respecify!
+
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_NB11_NoOil_CAGATC.fastq.gz' does not exist, please respecify!
+
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_NB3_NoOil_ACAGTG.fastq.gz' does not exist, please respecify!
+
+Bowtie seems to be working fine (tested command '/Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64/bowtie2 --version' [2.3.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/Applications/bioinfo/samtools-1.7/samtools'
+Reference genome folder provided is /Users/sr320/Desktop/oakl/genome/	(absolute path is '/Users/sr320/Desktop/oakl/genome/)'
+Processing sequences up to read no. 1000 from the input file
+
+Input files to be analysed (in current folder '/Users/sr320/Documents/GitHub/nb-2018/C_virginica'):
+Supplied filename '20150414_trimmed_2112_lane1_NB6_NoOil_GCCAAT.fastq.gz' does not exist, please respecify!
+
