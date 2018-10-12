@@ -1,0 +1,178 @@
+Contig110170	680	682	45	Contig110170	.	contig	1	9300	.	.	.	ID=Contig110170;Name=Contig110170
+Contig26036	17363	17365	-75	Contig26036	.	contig	1	17816	.	.	.	ID=Contig26036;Name=Contig26036
+Contig30748	20275	20277	-44	Contig30748	blastn	expressed_sequence_match	18387	21997	68	-	.	ID=Contig30748:hit:141:3.2.0.0;Name=comp36312_c6_seq2
+Contig30748	20275	20277	-44	Contig30748	.	contig	1	23516	.	.	.	ID=Contig30748;Name=Contig30748
+Contig35213	67	69	-46	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	67	69	-46	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	67	69	-46	Contig35213	blastn	match_part	1	179	131	-	.	ID=Contig35213:hsp:111:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 178 +;Gap=M23 D1 M21 D2 M51 I1 M59 I1 M22
+Contig35213	306	308	-40	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	306	308	-40	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	306	308	-40	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	306	308	-40	Contig35213	blastx	match_part	135	419	182	-	.	ID=Contig35213:hsp:120:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 111;Gap=M23 I4 M13 D2 M57
+Contig35213	306	308	-40	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	306	308	-40	Contig35213	blastn	match_part	188	447	220	-	.	ID=Contig35213:hsp:113:3.2.0.0;Parent=Contig35213:hit:64:3.2.0.0;Target=comp42648_c8_seq1 2 265 +;Gap=M33 I1 M44 I1 M29 I1 M41 I1 M113
+Contig35213	1721	1723	-45	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	1721	1723	-45	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1721	1723	-45	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	1721	1723	-45	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	1721	1723	-45	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	1721	1723	-45	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	1721	1723	-45	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1721	1723	-45	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1721	1723	-45	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1721	1723	-45	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	1850	1852	-67	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	1850	1852	-67	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1850	1852	-67	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	1850	1852	-67	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	1850	1852	-67	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	1850	1852	-67	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	1850	1852	-67	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1850	1852	-67	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1850	1852	-67	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1850	1852	-67	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	1850	1852	-67	Contig35213	blastx	match_part	1730	1972	173	-	.	ID=Contig35213:hsp:118:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 169 249;Gap=M81
+Contig35213	1859	1861	-81	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	1859	1861	-81	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1859	1861	-81	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	1859	1861	-81	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	1859	1861	-81	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	1859	1861	-81	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	1859	1861	-81	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1859	1861	-81	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1859	1861	-81	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1859	1861	-81	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	1859	1861	-81	Contig35213	blastx	match_part	1730	1972	173	-	.	ID=Contig35213:hsp:118:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 169 249;Gap=M81
+Contig35213	1873	1875	-78	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	1873	1875	-78	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1873	1875	-78	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	1873	1875	-78	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	1873	1875	-78	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	1873	1875	-78	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	1873	1875	-78	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1873	1875	-78	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1873	1875	-78	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1873	1875	-78	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	1873	1875	-78	Contig35213	blastx	match_part	1730	1972	173	-	.	ID=Contig35213:hsp:118:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 169 249;Gap=M81
+Contig35213	1988	1990	-78	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	1988	1990	-78	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1988	1990	-78	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	1988	1990	-78	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	1988	1990	-78	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	1988	1990	-78	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	1988	1990	-78	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1988	1990	-78	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	1988	1990	-78	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	1988	1990	-78	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	2003	2005	-62	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2003	2005	-62	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2003	2005	-62	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2003	2005	-62	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2003	2005	-62	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2003	2005	-62	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2003	2005	-62	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2003	2005	-62	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2003	2005	-62	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2003	2005	-62	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	2003	2005	-62	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2006	2008	-47	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2006	2008	-47	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2006	2008	-47	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2006	2008	-47	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2006	2008	-47	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2006	2008	-47	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2006	2008	-47	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2006	2008	-47	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2006	2008	-47	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2006	2008	-47	Contig35213	blastx	match_part	1065	2012	424	-	.	ID=Contig35213:hsp:117:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 156 471;Gap=M98 I1 M79 D12 M31 D2 M23 I13 M11 D7 M6 I1 M10 I6 M37
+Contig35213	2006	2008	-47	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2168	2170	-42	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2168	2170	-42	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2168	2170	-42	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2168	2170	-42	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2168	2170	-42	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2168	2170	-42	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2168	2170	-42	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2168	2170	-42	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2168	2170	-42	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2168	2170	-42	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2171	2173	-57	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2171	2173	-57	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2171	2173	-57	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2171	2173	-57	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2171	2173	-57	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2171	2173	-57	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2171	2173	-57	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2171	2173	-57	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2171	2173	-57	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2171	2173	-57	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2181	2183	-48	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2181	2183	-48	Contig35213	blastn	expressed_sequence_match	1	2189	1031	-	.	ID=Contig35213:hit:63:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2181	2183	-48	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2181	2183	-48	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2181	2183	-48	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2181	2183	-48	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2181	2183	-48	Contig35213	blastn	match_part	875	2189	1031	-	.	ID=Contig35213:hsp:110:3.2.0.0;Parent=Contig35213:hit:63:3.2.0.0;Target=comp42648_c3_seq1 1 1312 +;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2181	2183	-48	Contig35213	est2genome	expressed_sequence_match	875	2189	6176	+	.	ID=Contig35213:hit:65:3.2.0.0;Name=comp42648_c3_seq1
+Contig35213	2181	2183	-48	Contig35213	est2genome	match_part	875	2189	6176	+	.	ID=Contig35213:hsp:114:3.2.0.0;Parent=Contig35213:hit:65:3.2.0.0;Target=comp42648_c3_seq1 1 1312 -;Gap=M89 D1 M20 I1 M64 D1 M41 D1 M26 D1 M20 I1 M15 I1 M81 D1 M93 I1 M17 I1 M31 I2 M67 I1 M49 D1 M85 D1 M159 D1 M51 D1 M15 I1 M55 I1 M17 D2 M21 D1 M44 I1 M50 D1 M172 D1 M19
+Contig35213	2181	2183	-48	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2386	2388	-61	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2386	2388	-61	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2386	2388	-61	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2386	2388	-61	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2386	2388	-61	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2386	2388	-61	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2386	2388	-61	Contig35213	blastn	match_part	2190	2460	253	-	.	ID=Contig35213:hsp:112:3.2.0.0;Parent=Contig35213:hit:64:3.2.0.0;Target=comp42648_c8_seq1 4 274 +;Gap=M271
+Contig35213	2386	2388	-61	Contig35213	est2genome	expressed_sequence_match	2190	2464	1331	-	.	ID=Contig35213:hit:66:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2386	2388	-61	Contig35213	est2genome	match_part	2190	2464	1331	-	.	ID=Contig35213:hsp:115:3.2.0.0;Parent=Contig35213:hit:66:3.2.0.0;Target=comp42648_c8_seq1 1 274 +;Gap=M3 D1 M271
+Contig35213	2412	2414	-69	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2412	2414	-69	Contig35213	blastx	protein_match	135	2433	182	-	.	ID=Contig35213:hit:67:3.10.0.0;Name=YP_254649.1
+Contig35213	2412	2414	-69	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2412	2414	-69	Contig35213	protein2genome	protein_match	866	2433	1520	-	.	ID=Contig35213:hit:68:3.10.0.0;Name=YP_254649.1
+Contig35213	2412	2414	-69	Contig35213	protein2genome	match_part	866	2433	1520	-	.	ID=Contig35213:hsp:121:3.10.0.0;Parent=Contig35213:hit:68:3.10.0.0;Target=YP_254649.1 15 537;Gap=M65 F1 M17 R1 M1 R2 F1 M27 F2 M41 F1 M52 F1 M27 F1 M17 I1 F2 M21 R1 M1 R2 M13 F1 M3 R2 M1 R1 M30 F1 M60 F1 M120 I1 M20
+Contig35213	2412	2414	-69	Contig35213	blastx	match_part	1993	2433	454	-	.	ID=Contig35213:hsp:116:3.10.0.0;Parent=Contig35213:hit:67:3.10.0.0;Target=YP_254649.1 15 162;Gap=M20 I1 M127
+Contig35213	2412	2414	-69	Contig35213	blastn	match_part	2190	2460	253	-	.	ID=Contig35213:hsp:112:3.2.0.0;Parent=Contig35213:hit:64:3.2.0.0;Target=comp42648_c8_seq1 4 274 +;Gap=M271
+Contig35213	2412	2414	-69	Contig35213	est2genome	expressed_sequence_match	2190	2464	1331	-	.	ID=Contig35213:hit:66:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2412	2414	-69	Contig35213	est2genome	match_part	2190	2464	1331	-	.	ID=Contig35213:hsp:115:3.2.0.0;Parent=Contig35213:hit:66:3.2.0.0;Target=comp42648_c8_seq1 1 274 +;Gap=M3 D1 M271
+Contig35213	2443	2445	-61	Contig35213	.	contig	1	3190	.	.	.	ID=Contig35213;Name=Contig35213
+Contig35213	2443	2445	-61	Contig35213	blastn	expressed_sequence_match	188	2460	253	-	.	ID=Contig35213:hit:64:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2443	2445	-61	Contig35213	blastn	match_part	2190	2460	253	-	.	ID=Contig35213:hsp:112:3.2.0.0;Parent=Contig35213:hit:64:3.2.0.0;Target=comp42648_c8_seq1 4 274 +;Gap=M271
+Contig35213	2443	2445	-61	Contig35213	est2genome	expressed_sequence_match	2190	2464	1331	-	.	ID=Contig35213:hit:66:3.2.0.0;Name=comp42648_c8_seq1
+Contig35213	2443	2445	-61	Contig35213	est2genome	match_part	2190	2464	1331	-	.	ID=Contig35213:hsp:115:3.2.0.0;Parent=Contig35213:hit:66:3.2.0.0;Target=comp42648_c8_seq1 1 274 +;Gap=M3 D1 M271
+Contig59759	1682	1684	48	Contig59759	.	contig	1	5496	.	.	.	ID=Contig59759;Name=Contig59759
+Contig64	7482	7484	-48	Contig64	blastx	protein_match	36	7549	349	-	.	ID=Contig64:hit:1020:3.10.0.0;Name=EKC18166.1
+Contig64	7482	7484	-48	Contig64	protein2genome	protein_match	36	7549	868	-	.	ID=Contig64:hit:1027:3.10.0.0;Name=EKC18166.1
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	3669	9148	891	-	.	ID=Contig64:hit:921:3.2.0.0;Name=comp31072_c0_seq16
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	3669	9148	891	-	.	ID=Contig64:hit:925:3.2.0.0;Name=comp31072_c0_seq18
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	3669	8257	42	-	.	ID=Contig64:hit:931:3.2.0.0;Name=comp31072_c0_seq13
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	3669	8257	42	-	.	ID=Contig64:hit:932:3.2.0.0;Name=comp31072_c0_seq14
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	4267	9311	6803	-	.	ID=Contig64:hit:978:3.2.0.0;Name=comp31072_c0_seq16
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	4267	9311	7159	-	.	ID=Contig64:hit:984:3.2.0.0;Name=comp31072_c0_seq18
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	4267	8257	2306	-	.	ID=Contig64:hit:991:3.2.0.0;Name=comp31072_c0_seq13
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	4267	8257	2662	-	.	ID=Contig64:hit:992:3.2.0.0;Name=comp31072_c0_seq14
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	7020	9148	891	-	.	ID=Contig64:hit:924:3.2.0.0;Name=comp31072_c0_seq17
+Contig64	7482	7484	-48	Contig64	blastn	expressed_sequence_match	7020	8257	42	-	.	ID=Contig64:hit:927:3.2.0.0;Name=comp31072_c0_seq20
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	7020	9311	5997	-	.	ID=Contig64:hit:983:3.2.0.0;Name=comp31072_c0_seq17
+Contig64	7482	7484	-48	Contig64	est2genome	expressed_sequence_match	7020	8257	1500	-	.	ID=Contig64:hit:986:3.2.0.0;Name=comp31072_c0_seq20
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7445	7553	109	-	.	ID=Contig64:hsp:1420:3.2.0.0;Parent=Contig64:hit:924:3.2.0.0;Target=comp31072_c0_seq17 998 1106 +;Gap=M109
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7445	7553	109	-	.	ID=Contig64:hsp:1424:3.2.0.0;Parent=Contig64:hit:925:3.2.0.0;Target=comp31072_c0_seq18 998 1106 +;Gap=M109
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7445	7553	109	-	.	ID=Contig64:hsp:1435:3.2.0.0;Parent=Contig64:hit:927:3.2.0.0;Target=comp31072_c0_seq20 99 207 +;Gap=M109
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7445	7553	109	-	.	ID=Contig64:hsp:1461:3.2.0.0;Parent=Contig64:hit:932:3.2.0.0;Target=comp31072_c0_seq14 99 207 +;Gap=M109
+Contig64	7482	7484	-48	Contig64	blastx	match_part	7445	7549	172	-	.	ID=Contig64:hsp:2891:3.10.0.0;Parent=Contig64:hit:1020:3.10.0.0;Target=EKC18166.1 62 96;Gap=M35
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7446	7553	108	-	.	ID=Contig64:hsp:1405:3.2.0.0;Parent=Contig64:hit:921:3.2.0.0;Target=comp31072_c0_seq16 998 1105 +;Gap=M108
+Contig64	7482	7484	-48	Contig64	blastn	match_part	7446	7553	108	-	.	ID=Contig64:hsp:1452:3.2.0.0;Parent=Contig64:hit:931:3.2.0.0;Target=comp31072_c0_seq13 99 206 +;Gap=M108
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	6803	-	.	ID=Contig64:hsp:2445:3.2.0.0;Parent=Contig64:hit:978:3.2.0.0;Target=comp31072_c0_seq16 1000 1105 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	5997	-	.	ID=Contig64:hsp:2457:3.2.0.0;Parent=Contig64:hit:983:3.2.0.0;Target=comp31072_c0_seq17 1000 1105 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	7159	-	.	ID=Contig64:hsp:2462:3.2.0.0;Parent=Contig64:hit:984:3.2.0.0;Target=comp31072_c0_seq18 1000 1105 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	1500	-	.	ID=Contig64:hsp:2469:3.2.0.0;Parent=Contig64:hit:986:3.2.0.0;Target=comp31072_c0_seq20 101 206 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	2306	-	.	ID=Contig64:hsp:2481:3.2.0.0;Parent=Contig64:hit:991:3.2.0.0;Target=comp31072_c0_seq13 101 206 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	est2genome	match_part	7446	7551	2662	-	.	ID=Contig64:hsp:2486:3.2.0.0;Parent=Contig64:hit:992:3.2.0.0;Target=comp31072_c0_seq14 101 206 +;Gap=M106
+Contig64	7482	7484	-48	Contig64	protein2genome	match_part	7446	7549	868	-	.	ID=Contig64:hsp:2978:3.10.0.0;Parent=Contig64:hit:1027:3.10.0.0;Target=EKC18166.1 62 95;Gap=F2 M34
+Contig64	7482	7484	-48	Contig64	.	contig	1	49755	.	.	.	ID=Contig64;Name=Contig64
+Contig68908	3110	3112	-52	Contig68908	.	contig	1	7967	.	.	.	ID=Contig68908;Name=Contig68908
+Contig68908	3110	3112	-52	Contig68908	blastn	expressed_sequence_match	726	3161	124	-	.	ID=Contig68908:hit:12:3.2.0.0;Name=comp42648_c3_seq1
+Contig68908	3110	3112	-52	Contig68908	blastx	protein_match	952	3429	397	-	.	ID=Contig68908:hit:16:3.10.0.0;Name=YP_254649.1
+Contig68908	3110	3112	-52	Contig68908	blastx	match_part	2819	3241	177	-	.	ID=Contig68908:hsp:24:3.10.0.0;Parent=Contig68908:hit:16:3.10.0.0;Target=YP_254649.1 391 529;Gap=M10 D1 M14 I2 M6 D4 M81 I1 M25
+Contig68908	3110	3112	-52	Contig68908	blastx	match_part	2827	3429	185	-	.	ID=Contig68908:hsp:23:3.10.0.0;Parent=Contig68908:hit:16:3.10.0.0;Target=YP_254649.1 330 526;Gap=M23 I1 M15 D3 M34 D1 M8 D1 M7 I3 M7 D3 M31 D1 M40 I1 M27
+Contig68908	3110	3112	-52	Contig68908	blastn	match_part	2874	3161	124	-	.	ID=Contig68908:hsp:16:3.2.0.0;Parent=Contig68908:hit:12:3.2.0.0;Target=comp42648_c3_seq1 954 1242 +;Gap=M19 D1 M38 I1 M1 I1 M4 D1 M9 D1 M26 I1 M2 I1 M19 D1 M8 D1 M20 D1 M33 I1 M47 D1 M21 I1 M8 I2 M26
+Contig85299	5889	5891	-39	Contig85299	.	contig	1	13359	.	.	.	ID=Contig85299;Name=Contig85299
