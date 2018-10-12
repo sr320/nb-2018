@@ -1,0 +1,93 @@
+Contig100807:3101-3150	sp|Q49V12|MFD_STAS1 Transcription-repair-coupling factor OS=Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 20229) OX=342451 GN=mfd PE=3 SV=1	3.4
+Contig100807:3151-3200	sp|Q559R1|Y2456_DICDI Putative uncharacterized protein DDB_G0272456 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0272456 PE=4 SV=1	8.1
+Contig1167:401-450	sp|P57996|SECA1_MYCLE Protein translocase subunit SecA 1 OS=Mycobacterium leprae (strain TN) OX=272631 GN=secA1 PE=3 SV=1	3.0
+Contig120547:1001-1050	sp|Q6NYH1|IF122_DANRE Intraflagellar transport protein 122 homolog OS=Danio rerio OX=7955 GN=ift122 PE=2 SV=1	7.1
+Contig121874:4001-4050	sp|Q8NFJ9|BBS1_HUMAN Bardet-Biedl syndrome 1 protein OS=Homo sapiens OX=9606 GN=BBS1 PE=1 SV=1	8.4
+Contig121874:4001-4050	sp|Q3V3N7|BBS1_MOUSE Bardet-Biedl syndrome 1 protein homolog OS=Mus musculus OX=10090 GN=Bbs1 PE=1 SV=1	9.0
+Contig129876:2251-2300	sp|P79250|5HT1B_CANLF 5-hydroxytryptamine receptor 1B OS=Canis lupus familiaris OX=9615 GN=HTR1B PE=2 SV=2	8.3
+Contig129876:2251-2300	sp|P49144|5HT1B_RABIT 5-hydroxytryptamine receptor 1B OS=Oryctolagus cuniculus OX=9986 GN=HTR1B PE=2 SV=1	9.3
+Contig146135:7251-7300	sp|A1JRU2|PLSB_YERE8 Glycerol-3-phosphate acyltransferase OS=Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081) OX=393305 GN=plsB PE=3 SV=1	6.3
+Contig146135:7251-7300	sp|A8GKB6|PLSB_SERP5 Glycerol-3-phosphate acyltransferase OS=Serratia proteamaculans (strain 568) OX=399741 GN=plsB PE=3 SV=1	6.4
+Contig146135:7251-7300	sp|Q66FG9|PLSB_YERPS Glycerol-3-phosphate acyltransferase OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|B2K1U5|PLSB_YERPB Glycerol-3-phosphate acyltransferase OS=Yersinia pseudotuberculosis serotype IB (strain PB1/+) OX=502801 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|B1JNE5|PLSB_YERPY Glycerol-3-phosphate acyltransferase OS=Yersinia pseudotuberculosis serotype O:3 (strain YPIII) OX=502800 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|A4TRU7|PLSB_YERPP Glycerol-3-phosphate acyltransferase OS=Yersinia pestis (strain Pestoides F) OX=386656 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|Q1CE96|PLSB_YERPN Glycerol-3-phosphate acyltransferase OS=Yersinia pestis bv. Antiqua (strain Nepal516) OX=377628 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|Q8ZJ18|PLSB_YERPE Glycerol-3-phosphate acyltransferase OS=Yersinia pestis OX=632 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|Q1C0T9|PLSB_YERPA Glycerol-3-phosphate acyltransferase OS=Yersinia pestis bv. Antiqua (strain Antiqua) OX=360102 GN=plsB PE=3 SV=1	7.6
+Contig146135:7251-7300	sp|A7FN98|PLSB_YERP3 Glycerol-3-phosphate acyltransferase OS=Yersinia pseudotuberculosis serotype O:1b (strain IP 31758) OX=349747 GN=plsB PE=3 SV=1	7.6
+Contig15444:3701-3750	sp|Q7LHG5|YI31B_YEAST Transposon Ty3-I Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-I PE=3 SV=2	0.016
+Contig15444:3701-3750	sp|Q99315|YG31B_YEAST Transposon Ty3-G Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-G PE=1 SV=3	0.016
+Contig15444:3701-3750	sp|P0CT40|TF29_SCHPO Transposon Tf2-9 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-9 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT43|TF28_SCHPO Transposon Tf2-8 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-8 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT42|TF27_SCHPO Transposon Tf2-7 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-7 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT39|TF26_SCHPO Transposon Tf2-6 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-6 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT38|TF25_SCHPO Transposon Tf2-5 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-5 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT37|TF24_SCHPO Transposon Tf2-4 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-4 PE=3 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT36|TF23_SCHPO Transposon Tf2-3 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-3 PE=1 SV=1	2.4
+Contig15444:3701-3750	sp|P0CT35|TF22_SCHPO Transposon Tf2-2 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-2 PE=3 SV=1	2.4
+Contig1730:501-550	sp|Q32836|YCF2_PELHO Protein Ycf2 OS=Pelargonium hortorum OX=4031 GN=ycf2-A PE=3 SV=2	9.5
+Contig1956:3901-3950	sp|Q8VD04|GRAP1_MOUSE GRIP1-associated protein 1 OS=Mus musculus OX=10090 GN=Gripap1 PE=1 SV=1	8.9
+Contig22642:2951-3000	sp|P04235|CD3D_MOUSE T-cell surface glycoprotein CD3 delta chain OS=Mus musculus OX=10090 GN=Cd3d PE=1 SV=1	4.2
+Contig23612:25351-25400	sp|Q07K31|GLPK_RHOP5 Glycerol kinase OS=Rhodopseudomonas palustris (strain BisA53) OX=316055 GN=glpK PE=3 SV=1	3.1
+Contig23612:25351-25400	sp|Q1QR91|GLPK_NITHX Glycerol kinase OS=Nitrobacter hamburgensis (strain DSM 10229 / NCIMB 13809 / X14) OX=323097 GN=glpK PE=3 SV=1	4.3
+Contig23612:25351-25400	sp|Q0I2G8|PLSB_HAES1 Glycerol-3-phosphate acyltransferase OS=Haemophilus somnus (strain 129Pt) OX=205914 GN=plsB PE=3 SV=1	4.5
+Contig23612:25351-25400	sp|B9J7X6|GLPK_AGRRK Glycerol kinase OS=Agrobacterium radiobacter (strain K84 / ATCC BAA-868) OX=311403 GN=glpK PE=3 SV=1	4.5
+Contig23612:25351-25400	sp|Q133H2|GLPK_RHOPS Glycerol kinase OS=Rhodopseudomonas palustris (strain BisB5) OX=316057 GN=glpK PE=3 SV=1	4.7
+Contig23612:25351-25400	sp|Q89UK6|GLPK_BRADU Glycerol kinase OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 13628 / NBRC 14792 / USDA 110) OX=224911 GN=glpK PE=3 SV=1	4.9
+Contig23612:25351-25400	sp|A4YLX6|GLPK_BRASO Glycerol kinase OS=Bradyrhizobium sp. (strain ORS 278) OX=114615 GN=glpK PE=3 SV=1	4.9
+Contig23612:25351-25400	sp|A5ES06|GLPK_BRASB Glycerol kinase OS=Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182) OX=288000 GN=glpK PE=3 SV=1	4.9
+Contig23612:25351-25400	sp|B3QH88|GLPK_RHOPT Glycerol kinase OS=Rhodopseudomonas palustris (strain TIE-1) OX=395960 GN=glpK PE=3 SV=1	5.7
+Contig23612:25351-25400	sp|Q6N3I8|GLPK_RHOPA Glycerol kinase OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009) OX=258594 GN=glpK PE=3 SV=1	5.7
+Contig237394:6551-6600	sp|Q9UIS9|MBD1_HUMAN Methyl-CpG-binding domain protein 1 OS=Homo sapiens OX=9606 GN=MBD1 PE=1 SV=2	6.9
+Contig27772:4601-4650	sp|P45890|ARP6_DROME Actin-related protein 6 OS=Drosophila melanogaster OX=7227 GN=Arp6 PE=1 SV=1	0.18
+Contig27772:4601-4650	sp|Q9GZN1|ARP6_HUMAN Actin-related protein 6 OS=Homo sapiens OX=9606 GN=ACTR6 PE=1 SV=1	4.6
+Contig27772:4601-4650	sp|Q9D864|ARP6_MOUSE Actin-related protein 6 OS=Mus musculus OX=10090 GN=Actr6 PE=1 SV=2	4.7
+Contig27772:4601-4650	sp|Q9DEE9|ARP6_CHICK Actin-related protein 6 OS=Gallus gallus OX=9031 GN=ACTR6 PE=1 SV=1	5.1
+Contig29308:43001-43050	sp|Q6P7I0|3HAO_XENLA 3-hydroxyanthranilate 3,4-dioxygenase OS=Xenopus laevis OX=8355 GN=haao PE=2 SV=1	2.7
+Contig29308:43001-43050	sp|Q54U87|DHKA_DICDI Hybrid signal transduction histidine kinase A OS=Dictyostelium discoideum OX=44689 GN=dhkA PE=1 SV=1	2.9
+Contig30748:20301-20350	sp|Q35409|CYB_PHACL Cytochrome b OS=Phascogale calura OX=38776 GN=MT-CYB PE=3 SV=2	6.6
+Contig30748:20301-20350	sp|Q956S6|CYB_IGUIG Cytochrome b OS=Iguana iguana OX=8517 GN=MT-CYB PE=3 SV=1	8.6
+Contig31843:1551-1600	sp|Q8KBK9|BCHQ_CHLTE Bacteriochlorophyllide d C-8(2)-methyltransferase OS=Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) OX=194439 GN=bchQ PE=1 SV=1	7.1
+Contig35213:1201-1250	sp|P18943|COX1_CHICK Cytochrome c oxidase subunit 1 OS=Gallus gallus OX=9031 GN=MT-CO1 PE=3 SV=1	0.34
+Contig35213:1201-1250	sp|O21399|COX1_STRCA Cytochrome c oxidase subunit 1 OS=Struthio camelus OX=8801 GN=MT-CO1 PE=3 SV=2	0.34
+Contig35213:1201-1250	sp|P24984|COX1_COTJA Cytochrome c oxidase subunit 1 OS=Coturnix japonica OX=93934 GN=MT-CO1 PE=3 SV=3	0.35
+Contig35213:1201-1250	sp|P15544|COX1_STRPU Cytochrome c oxidase subunit 1 OS=Strongylocentrotus purpuratus OX=7668 GN=COI PE=3 SV=1	0.57
+Contig35213:1201-1250	sp|Q33820|COX1_PATPE Cytochrome c oxidase subunit 1 OS=Patiria pectinifera OX=7594 GN=COI PE=3 SV=1	0.61
+Contig35213:1201-1250	sp|P25001|COX1_PISOC Cytochrome c oxidase subunit 1 OS=Pisaster ochraceus OX=7612 GN=COI PE=3 SV=1	0.62
+Contig35213:1201-1250	sp|P05503|COX1_RAT Cytochrome c oxidase subunit 1 OS=Rattus norvegicus OX=10116 GN=Mtco1 PE=2 SV=3	0.84
+Contig35213:1201-1250	sp|P00397|COX1_MOUSE Cytochrome c oxidase subunit 1 OS=Mus musculus OX=10090 GN=Mtco1 PE=1 SV=2	0.84
+Contig35213:1201-1250	sp|Q9ZZ52|COX1_SQUAC Cytochrome c oxidase subunit 1 OS=Squalus acanthias OX=7797 GN=MT-CO1 PE=3 SV=1	1.1
+Contig35213:1201-1250	sp|P00400|COX1_DROYA Cytochrome c oxidase subunit 1 OS=Drosophila yakuba OX=7245 GN=mt:CoI PE=3 SV=2	1.5
+Contig35213:1751-1800	sp|Q05143|COX1_PROWI Cytochrome c oxidase subunit 1 OS=Prototheca wickerhamii OX=3111 GN=COX1 PE=3 SV=1	0.25
+Contig35213:1751-1800	sp|P48867|COX1_CYACA Cytochrome c oxidase subunit 1 OS=Cyanidium caldarium OX=2771 GN=COX1 PE=3 SV=1	0.46
+Contig35213:1751-1800	sp|P00402|COX1_EMEND Cytochrome c oxidase subunit 1 OS=Emericella nidulans OX=162425 GN=cox1 PE=3 SV=2	0.78
+Contig35213:1751-1800	sp|Q0H8Y2|AI7_USTMA Probable intron-encoded endonuclease aI7 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI7 PE=3 SV=2	1.0
+Contig35213:1751-1800	sp|P03945|COX1_NEUCR Cytochrome c oxidase subunit 1 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=cox-1 PE=1 SV=2	1.1
+Contig35213:1751-1800	sp|Q0H8Y3|AI8_USTMA Probable intron-encoded endonuclease aI8 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI8 PE=3 SV=2	1.1
+Contig35213:1751-1800	sp|Q2LCQ6|COX1_DICCI Cytochrome c oxidase subunit 1+2 OS=Dictyostelium citrinum OX=361072 GN=cox1/2 PE=3 SV=1	1.1
+Contig35213:1751-1800	sp|Q9G6J1|COX1_OCTVU Cytochrome c oxidase subunit 1 (Fragment) OS=Octopus vulgaris OX=6645 GN=COI PE=2 SV=1	1.2
+Contig35213:1751-1800	sp|Q9TGE6|COX1_LOLFO Cytochrome c oxidase subunit 1 (Fragment) OS=Loligo forbesi OX=6618 GN=COI PE=3 SV=1	1.2
+Contig35213:1751-1800	sp|Q9TGD8|COX1_PLADA Cytochrome c oxidase subunit 1 (Fragment) OS=Planctoteuthis danae OX=78439 GN=COI PE=3 SV=1	1.2
+Contig35213:2001-2050	sp|Q9N5D3|SOS_CAEEL Son of sevenless homolog OS=Caenorhabditis elegans OX=6239 GN=sos-1 PE=1 SV=3	9.9
+Contig35248:20701-20750	sp|Q9UKS6|PACN3_HUMAN Protein kinase C and casein kinase substrate in neurons protein 3 OS=Homo sapiens OX=9606 GN=PACSIN3 PE=1 SV=2	6.6
+Contig35248:20701-20750	sp|Q99JB8|PACN3_MOUSE Protein kinase C and casein kinase II substrate protein 3 OS=Mus musculus OX=10090 GN=Pacsin3 PE=1 SV=1	7.2
+Contig39845:1201-1250	sp|Q5UXH9|DNAJ_HALMA Chaperone protein DnaJ OS=Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) OX=272569 GN=dnaJ PE=3 SV=1	8.5
+Contig40568:15251-15300	sp|Q46185|DAPF_CLOPE Diaminopimelate epimerase OS=Clostridium perfringens (strain 13 / Type A) OX=195102 GN=dapF PE=3 SV=2	2.6
+Contig51879:10301-10350	sp|P93257|MTDH_MESCR Probable mannitol dehydrogenase OS=Mesembryanthemum crystallinum OX=3544 GN=ELI3 PE=2 SV=1	4.0
+Contig51879:10301-10350	sp|B4NJW0|MOC2B_DROWI Molybdopterin synthase catalytic subunit OS=Drosophila willistoni OX=7260 GN=Mocs2 PE=3 SV=1	8.3
+Contig51879:10301-10350	sp|Q6BKK7|TRM6_DEBHA tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=TRM6 PE=3 SV=2	8.6
+Contig51879:10301-10350	sp|Q6ERX1|CAD8A_ORYSJ Probable cinnamyl alcohol dehydrogenase 8A OS=Oryza sativa subsp. japonica OX=39947 GN=CAD8A PE=2 SV=1	9.0
+Contig51879:10301-10350	sp|Q6ERW5|CAD8D_ORYSJ Probable cinnamyl alcohol dehydrogenase 8D OS=Oryza sativa subsp. japonica OX=39947 GN=CAD8D PE=2 SV=1	9.3
+Contig52167:10551-10600	sp|F1QWM2|DUS27_DANRE Inactive dual specificity phosphatase 27 OS=Danio rerio OX=7955 GN=dusp27 PE=1 SV=1	7.4
+Contig686969:901-950	sp|P74635|Y753_SYNY3 Uncharacterized transporter slr0753 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=slr0753 PE=3 SV=1	9.6
+Contig8544:3201-3250	sp|A1K2P7|TTCA_AZOSB tRNA-cytidine(32) 2-sulfurtransferase OS=Azoarcus sp. (strain BH72) OX=62928 GN=ttcA PE=3 SV=1	1.4
+Contig8544:3201-3250	sp|Q9WVF7|DPOE1_MOUSE DNA polymerase epsilon catalytic subunit A OS=Mus musculus OX=10090 GN=Pole PE=1 SV=3	1.8
+Contig8544:3201-3250	sp|Q07864|DPOE1_HUMAN DNA polymerase epsilon catalytic subunit A OS=Homo sapiens OX=9606 GN=POLE PE=1 SV=5	2.0
+Contig8544:3201-3250	sp|Q5P3T7|TTCA_AROAE tRNA-cytidine(32) 2-sulfurtransferase OS=Aromatoleum aromaticum (strain EbN1) OX=76114 GN=ttcA PE=3 SV=1	3.9
+Contig94052:601-650	sp|Q9W1V6|PPO3_DROME Phenoloxidase 3 OS=Drosophila melanogaster OX=7227 GN=PPO3 PE=1 SV=1	8.4
+Contig99118:13001-13050	sp|Q6E3D4|CPB3_CAERE Cytoplasmic polyadenylation element-binding protein 3 OS=Caenorhabditis remanei OX=31234 GN=cpb-3 PE=2 SV=1	1.9
+Contig99118:13001-13050	sp|Q6E3D5|CPB3_CAEBR Cytoplasmic polyadenylation element-binding protein 3 OS=Caenorhabditis briggsae OX=6238 GN=cpb-3 PE=2 SV=1	2.2
+Contig99118:13001-13050	sp|Q6E3D2|CPB3_CAEJA Cytoplasmic polyadenylation element-binding protein 3 OS=Caenorhabditis japonica OX=281687 GN=cpb-3 PE=2 SV=1	4.4
+Contig99118:13001-13050	sp|P89201|POLG_SPMMV Genome polyprotein OS=Sweet potato mild mottle virus (isolate Salazar) OX=652105 PE=2 SV=1	5.3
+Contig99118:13001-13050	sp|O01835|CPB3_CAEEL Cytoplasmic polyadenylation element-binding protein 3 OS=Caenorhabditis elegans OX=6239 GN=cpb-3 PE=2 SV=2	7.1
