@@ -3,6 +3,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sr320/nb-2018/master)
 
+[nbviewer](https://nbviewer.jupyter.org/github/sr320/nb-2018/tree/master/)
+
 
 ---
 
