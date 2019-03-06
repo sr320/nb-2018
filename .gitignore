@@ -41,4 +41,7 @@ P_generosa/data/Pgenerosa_v070.fa
 O_lurida/analyses/Olv081_fasta2tab
 O_lurida/analyses/Olv081_tab_1
 O_lurida/analyses/1012/
-.DS_Store
+O_lurida/analyses/trans-KS-blastn-Olurida_v081.tab
+O_lurida/analyses/ks-blastn-Olurida_v081-01.gff
+P_generosa/20181127_oly_genome_snap02.all.noseqs.sorted.gff
+P_generosa/20181127_oly_genome_snap02.all.noseqs.sorted.gff.idx

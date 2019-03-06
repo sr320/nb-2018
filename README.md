@@ -1,6 +1,13 @@
 # nb-2018
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sr320/nb-2018/master)
+
+[nbviewer](https://nbviewer.jupyter.org/github/sr320/nb-2018/tree/master/)
+
+
+---
+
 Helpful bits
 
 `rsync -avz /Volumes/Serine/wd/ /Volumes/web-1/halfshell/bu-serine-wd/`
